@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9317C4E92751296D00F7FB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C4E82751296D00F7FB3C /* AppDelegate.swift */; };
 		9317C4EB2751296D00F7FB3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C4EA2751296D00F7FB3C /* SceneDelegate.swift */; };
-		9317C4ED2751296D00F7FB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C4EC2751296D00F7FB3C /* ViewController.swift */; };
 		9317C4F02751296D00F7FB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9317C4EE2751296D00F7FB3C /* Main.storyboard */; };
 		9317C4F32751296D00F7FB3C /* QulixTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9317C4F12751296D00F7FB3C /* QulixTest.xcdatamodeld */; };
 		9317C4F52751297000F7FB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9317C4F42751297000F7FB3C /* Assets.xcassets */; };
@@ -17,6 +16,20 @@
 		9317C5032751297100F7FB3C /* QulixTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C5022751297100F7FB3C /* QulixTestTests.swift */; };
 		9317C50D2751297100F7FB3C /* QulixTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C50C2751297100F7FB3C /* QulixTestUITests.swift */; };
 		9317C50F2751297100F7FB3C /* QulixTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C50E2751297100F7FB3C /* QulixTestUITestsLaunchTests.swift */; };
+		9317C51F27512C6F00F7FB3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C51E27512C6F00F7FB3C /* MainViewController.swift */; };
+		9317C527275135ED00F7FB3C /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C526275135ED00F7FB3C /* SearchResponse.swift */; };
+		9317C5292751371600F7FB3C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C5282751371600F7FB3C /* APIClient.swift */; };
+		9317C52D2751373E00F7FB3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C52C2751373E00F7FB3C /* Constants.swift */; };
+		9317C52F27513ACF00F7FB3C /* InternetConnectionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C52E27513ACF00F7FB3C /* InternetConnectionObserver.swift */; };
+		9317C5322751436300F7FB3C /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C5312751436300F7FB3C /* SearchViewModel.swift */; };
+		9317C5352751815500F7FB3C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C5342751815500F7FB3C /* UIViewExtension.swift */; };
+		9317C537275181C500F7FB3C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C536275181C500F7FB3C /* MainView.swift */; };
+		9317C53F2751825300F7FB3C /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C53D2751825300F7FB3C /* MainTableViewCell.swift */; };
+		9317C5402751825300F7FB3C /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9317C53E2751825300F7FB3C /* MainTableViewCell.xib */; };
+		9317C543275192F300F7FB3C /* MianViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C542275192F300F7FB3C /* MianViewState.swift */; };
+		9317C54627524E2800F7FB3C /* MainTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C54527524E2800F7FB3C /* MainTableDataSource.swift */; };
+		9317C54A275268CA00F7FB3C /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9317C549275268CA00F7FB3C /* CustomError.swift */; };
+		9345B2942754BB3C0048E5C5 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9345B2932754BB3C0048E5C5 /* MainModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +53,6 @@
 		9317C4E52751296D00F7FB3C /* QulixTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QulixTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9317C4E82751296D00F7FB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9317C4EA2751296D00F7FB3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9317C4EC2751296D00F7FB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9317C4EF2751296D00F7FB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9317C4F22751296D00F7FB3C /* QulixTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QulixTest.xcdatamodel; sourceTree = "<group>"; };
 		9317C4F42751297000F7FB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		9317C5082751297100F7FB3C /* QulixTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulixTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9317C50C2751297100F7FB3C /* QulixTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulixTestUITests.swift; sourceTree = "<group>"; };
 		9317C50E2751297100F7FB3C /* QulixTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulixTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9317C51E27512C6F00F7FB3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9317C526275135ED00F7FB3C /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		9317C5282751371600F7FB3C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9317C52C2751373E00F7FB3C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9317C52E27513ACF00F7FB3C /* InternetConnectionObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionObserver.swift; sourceTree = "<group>"; };
+		9317C5312751436300F7FB3C /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		9317C5342751815500F7FB3C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9317C536275181C500F7FB3C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9317C53D2751825300F7FB3C /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		9317C53E2751825300F7FB3C /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		9317C542275192F300F7FB3C /* MianViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianViewState.swift; sourceTree = "<group>"; };
+		9317C54527524E2800F7FB3C /* MainTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableDataSource.swift; sourceTree = "<group>"; };
+		9317C549275268CA00F7FB3C /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		9345B2932754BB3C0048E5C5 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +127,14 @@
 		9317C4E72751296D00F7FB3C /* QulixTest */ = {
 			isa = PBXGroup;
 			children = (
-				9317C4E82751296D00F7FB3C /* AppDelegate.swift */,
-				9317C4EA2751296D00F7FB3C /* SceneDelegate.swift */,
-				9317C4EC2751296D00F7FB3C /* ViewController.swift */,
+				9317C548275268BA00F7FB3C /* Error */,
+				9317C54427524DFF00F7FB3C /* CustomDataSource */,
+				9317C5332751812F00F7FB3C /* Extension */,
+				9317C523275134A200F7FB3C /* Services */,
+				9317C5222751349700F7FB3C /* Model */,
+				9317C5212751348E00F7FB3C /* ViewModel */,
+				9317C5202751348600F7FB3C /* View */,
+				9317C51B27512C0C00F7FB3C /* Other */,
 				9317C4EE2751296D00F7FB3C /* Main.storyboard */,
 				9317C4F42751297000F7FB3C /* Assets.xcassets */,
 				9317C4F62751297000F7FB3C /* LaunchScreen.storyboard */,
@@ -128,6 +159,118 @@
 				9317C50E2751297100F7FB3C /* QulixTestUITestsLaunchTests.swift */,
 			);
 			path = QulixTestUITests;
+			sourceTree = "<group>";
+		};
+		9317C51B27512C0C00F7FB3C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9317C4E82751296D00F7FB3C /* AppDelegate.swift */,
+				9317C4EA2751296D00F7FB3C /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9317C5202751348600F7FB3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9317C541275192E200F7FB3C /* ViewState */,
+				9317C5382751821800F7FB3C /* Cell */,
+				9317C51E27512C6F00F7FB3C /* MainViewController.swift */,
+				9317C536275181C500F7FB3C /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9317C5212751348E00F7FB3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9317C5312751436300F7FB3C /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9317C5222751349700F7FB3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9345B2932754BB3C0048E5C5 /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9317C523275134A200F7FB3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9317C53027513ADA00F7FB3C /* InternetConnectionObserver */,
+				9317C524275134AB00F7FB3C /* APIClient */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9317C524275134AB00F7FB3C /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				9317C52C2751373E00F7FB3C /* Constants.swift */,
+				9317C5282751371600F7FB3C /* APIClient.swift */,
+				9317C525275135DE00F7FB3C /* Responses */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		9317C525275135DE00F7FB3C /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				9317C526275135ED00F7FB3C /* SearchResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		9317C53027513ADA00F7FB3C /* InternetConnectionObserver */ = {
+			isa = PBXGroup;
+			children = (
+				9317C52E27513ACF00F7FB3C /* InternetConnectionObserver.swift */,
+			);
+			path = InternetConnectionObserver;
+			sourceTree = "<group>";
+		};
+		9317C5332751812F00F7FB3C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9317C5342751815500F7FB3C /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9317C5382751821800F7FB3C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9317C53D2751825300F7FB3C /* MainTableViewCell.swift */,
+				9317C53E2751825300F7FB3C /* MainTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9317C541275192E200F7FB3C /* ViewState */ = {
+			isa = PBXGroup;
+			children = (
+				9317C542275192F300F7FB3C /* MianViewState.swift */,
+			);
+			path = ViewState;
+			sourceTree = "<group>";
+		};
+		9317C54427524DFF00F7FB3C /* CustomDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				9317C54527524E2800F7FB3C /* MainTableDataSource.swift */,
+			);
+			path = CustomDataSource;
+			sourceTree = "<group>";
+		};
+		9317C548275268BA00F7FB3C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				9317C549275268CA00F7FB3C /* CustomError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +379,7 @@
 			files = (
 				9317C4F82751297000F7FB3C /* LaunchScreen.storyboard in Resources */,
 				9317C4F52751297000F7FB3C /* Assets.xcassets in Resources */,
+				9317C5402751825300F7FB3C /* MainTableViewCell.xib in Resources */,
 				9317C4F02751296D00F7FB3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +405,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9317C4ED2751296D00F7FB3C /* ViewController.swift in Sources */,
+				9345B2942754BB3C0048E5C5 /* MainModel.swift in Sources */,
+				9317C5322751436300F7FB3C /* SearchViewModel.swift in Sources */,
+				9317C537275181C500F7FB3C /* MainView.swift in Sources */,
+				9317C54A275268CA00F7FB3C /* CustomError.swift in Sources */,
+				9317C5292751371600F7FB3C /* APIClient.swift in Sources */,
 				9317C4F32751296D00F7FB3C /* QulixTest.xcdatamodeld in Sources */,
+				9317C527275135ED00F7FB3C /* SearchResponse.swift in Sources */,
+				9317C543275192F300F7FB3C /* MianViewState.swift in Sources */,
 				9317C4E92751296D00F7FB3C /* AppDelegate.swift in Sources */,
+				9317C5352751815500F7FB3C /* UIViewExtension.swift in Sources */,
+				9317C52F27513ACF00F7FB3C /* InternetConnectionObserver.swift in Sources */,
+				9317C53F2751825300F7FB3C /* MainTableViewCell.swift in Sources */,
+				9317C54627524E2800F7FB3C /* MainTableDataSource.swift in Sources */,
 				9317C4EB2751296D00F7FB3C /* SceneDelegate.swift in Sources */,
+				9317C51F27512C6F00F7FB3C /* MainViewController.swift in Sources */,
+				9317C52D2751373E00F7FB3C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
